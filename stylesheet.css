@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #FFF;
+    /*background-color: black;*/
+    background: url("img/background-full.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3, b, .navigation {
+    font-family: "Arial Black";
+}
+
+h1, h2, h3, .navigation {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 5.2em;
+    line-height: 0.73em;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-top: 1.6em;
+    margin-bottom: 4em;
+}
+
+h2 {
+    font-size: 2em;
+    border-top: 0.2em solid yellow;
+    margin-top: 1.2em;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    background-color: yellow;
+    color: black;
+    padding-left: 0.3em;
+    margin-top: 0;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+}
+
+em {
+    font-family: Georgia;
+}
+
+
+/* /////////////////////////////////////////// MENU /////////////////////////////////////////// */
+
+.menu {
+    max-width: 360px;
+    margin-left: 2.5%;
+}
+
+
+/* NAVIGATION */
+
+.navigation {
+    list-style-type: none;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    padding-bottom: 0.3em;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navigation li a:before {
+    content: url("img/star1.jpg");
+    margin-right: 0.4em;
+}
+
+.navigation li a:hover {
+    content: url("img/star2.jpg");
+    margin-right: 0.4em;
+}
+
+
+/* UPDATES AND SIDE-ITEM */
+
+.updates h3, .side-item h3 {
+    color: #ed1b5c;
+    margin-bottom: -0.3em;
+}
+
+.updates ul, .side-item p {
+    border: 0.4em solid yellow;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.updates ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: "Arial Black";
+    padding-left: 1em;
+    /*padding-bottom: 12em;*/
+}
+
+.updates ul li {
+    padding-bottom: 1em;
+}
+
+.updates ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.updates a p {
+    display: none;
+}
+
+.updates a:hover p {
+    display: block;
+}
+
+.side-item p {
+    line-height: 1.5em;
+    padding: 0.5em 1em;
+}
+
+
+/* /////////////////////////////////////////// ARTICLES /////////////////////////////////////////// */
+
+.articles {
+    max-width: 540px;
+    margin-right: 2.5%;
+}
+
+.articles p, .articles blockquote {
+    font-size: 1.1em;
+    line-height: 1.9em;
+}
+
+img {
+    padding: 0.2em;
+    border: 0.2em solid yellow;
+}
+
+.links {
+    padding-left: 0.4em;
+    border-left: 0.4em solid yellow;
+}
+
+.links a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.links .uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* SECOND ARTICLE */
+
+.second-article img {
+    float: left;
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
+
+/* THIRD ARTICLE */
+
+.third-article img {
+    float: right;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+blockquote {
+    border-top: 0.2em solid yellow;
+    border-bottom: 0.2em solid yellow;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* FOURTH ARTICLE */
+
+.fourth-article ul {
+    list-style-type: none;
+    font-size: 1.1em;
+    line-height: 1.9em;
+    padding: 0;
+    margin: 0;
+}
+
+.fourth-article ul li {
+    padding-left: 1.5em;
+}
+
+.fourth-article ul li:before {
+    content: url("img/bullet.gif");
+    margin-right: 0.4em;
+}
+
+.fourth-article ol {
+    font-size: 1.1em;
+    line-height: 1.9em;
+}
+
+
+/* MY LINKS AND WEB DESIGN */
+
+.link-design {
+    display: flex;
+    justify-content: center;
+}
+
+.my-links, .web-design {
+    width: 20em;
+}
+
+.my-links {
+    margin-right: 2em;
+}
+
+.web-design {
+    margin-left: 2em;
+}
+
+.my-links h4, .web-design h4 {
+    font-family: "Arial Black";
+    text-transform: uppercase;
+}
+
+.my-links ul, .web-design ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.my-links ul li, .web-design ul li {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: 0.1em solid grey;
+    padding: 1em;
+}
+
+.my-links ul li a, .web-design ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+/* /////////////////////////////////////////// FOOTER /////////////////////////////////////////// */
+
+footer {
+    margin-top: 2.5em;
+    margin-left: 16%;
+}
